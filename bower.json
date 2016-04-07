@@ -1,0 +1,27 @@
+{
+  "name": "node-todo",
+  "description": "Simple todo application.",
+  "main": "server.js",
+  "authors": [
+    "Scotch"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-trello-api-client": "^2.1.1",
+    "angular-material": "~1.0.6",
+    "moment": "^2.12.0",
+    "angular-loading": "^0.1.4"
+  },
+  "resolutions": {
+    "angular": ">=1.3.x"
+  }
+}
