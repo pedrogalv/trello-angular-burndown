@@ -10,9 +10,8 @@ var methodOverride = require('method-override'); // simulate DELETE and PUT (exp
 var env = process.env; //OPENSHIFT Enviroments
 // configuration =================
 
+// connect to mongoDB database on mongolab
 mongoose.connect('mongodb://<YOUR MONGODB URL HERE>');
-//mongoose.connect('mongodb://node:nodeuser@mongo.onmodulus.net:27017/uwO3mypu');     //
-// connect to mongoDB database on modulus.io
 
 // define model =================
 var Prefs = mongoose.model('Prefs', {
