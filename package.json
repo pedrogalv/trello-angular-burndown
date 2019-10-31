@@ -13,7 +13,7 @@
   "dependencies": {
     "bower": "^1.7.7",
     "express": "~4.7.2",
-    "mongoose": "~4.3.7",
+    "mongoose": "~5.7.7",
     "gulp": "^3.9.1",
     "gulp-clean": "^0.3.2",
     "gulp-connect": "^3.2.2",
